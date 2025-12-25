@@ -57,24 +57,7 @@ Detection Method: Interquartile Range (IQR)
 Threshold:
 Values outside
 
-𝑄
-1
-−
-1.5
-×
-𝐼
-𝑄
-𝑅
-and
-𝑄
-3
-+
-1.5
-×
-𝐼
-𝑄
-𝑅
-Q1−1.5×IQRandQ3+1.5×IQR
+𝑄1 − 1.5×𝐼𝑄𝑅 and 𝑄3 + 1.5 × 𝐼𝑄𝑅 Q1 − 1.5× IQR and Q3 + 1.5 × IQR
 
 Action: Remove extreme outliers
 
