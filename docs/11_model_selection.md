@@ -29,6 +29,7 @@ Random Forest achieved the **highest ROC-AUC score (0.708)** among all evaluated
 ### Most Important Metric: **Recall**
 
 ### Business Justification
+
 For churn prediction:
 - **False negatives (missed churners)** are more costly than false positives
 - Missing a churned customer results in permanent revenue loss
@@ -38,6 +39,7 @@ For churn prediction:
 > It is better to target 100 customers unnecessarily than to miss 10 customers who are about to churn.
 
 ### Trade-offs
+
 - Higher recall may slightly reduce precision
 - Acceptable because retention campaign cost is lower than customer lifetime value
 
