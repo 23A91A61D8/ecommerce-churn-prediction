@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  churn_app:
+    build: .
+    container_name: ecommerce_churn_app
+    ports:
+      - "8501:8501"

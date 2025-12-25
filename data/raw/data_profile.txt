@@ -1,0 +1,31 @@
+DATA PROFILE REPORT
+==================================================
+
+Generated on: 2025-12-23 10:37:45.378209
+
+Total Rows: 541909
+Total Columns: 8
+
+Column Names and Data Types:
+----------------------------------------
+InvoiceNo       object
+StockCode       object
+Description     object
+Quantity         int64
+InvoiceDate     object
+UnitPrice      float64
+CustomerID     float64
+Country         object
+
+Memory Usage:
+----------------------------------------
+173.12 MB
+
+First 5 Rows Preview:
+----------------------------------------
+  InvoiceNo StockCode                          Description  Quantity     InvoiceDate  UnitPrice  CustomerID         Country
+0    536365    85123A   WHITE HANGING HEART T-LIGHT HOLDER         6  12/1/2010 8:26       2.55     17850.0  United Kingdom
+1    536365     71053                  WHITE METAL LANTERN         6  12/1/2010 8:26       3.39     17850.0  United Kingdom
+2    536365    84406B       CREAM CUPID HEARTS COAT HANGER         8  12/1/2010 8:26       2.75     17850.0  United Kingdom
+3    536365    84029G  KNITTED UNION FLAG HOT WATER BOTTLE         6  12/1/2010 8:26       3.39     17850.0  United Kingdom
+4    536365    84029E       RED WOOLLY HOTTIE WHITE HEART.         6  12/1/2010 8:26       3.39     17850.0  United Kingdom

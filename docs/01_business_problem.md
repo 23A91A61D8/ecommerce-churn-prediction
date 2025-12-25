@@ -1,36 +1,67 @@
 # Business Problem Statement
+# 1. Business Context
 
-## 1. Business Context
-E-commerce companies generate large volumes of transactional data from customer purchases.
-One of the major challenges in the e-commerce industry is customer churn, where customers stop
-purchasing from the platform. Retaining existing customers is critical because acquiring a new
-customer costs significantly more than retaining an existing one.
+The e-commerce industry is highly competitive, with businesses facing increasing customer acquisition costs and rapidly changing consumer preferences. Customers can easily switch between platforms due to abundant choices, price comparisons, and alternative offerings.
 
-The business currently lacks a data-driven system to identify customers who are likely to churn
-in the near future. This results in inefficient marketing campaigns and lost revenue opportunities.
+Customer retention is critical for long-term profitability. Studies show that acquiring a new customer costs 5 to 25 times more than retaining an existing one, making churn prevention a high-priority business objective.
 
-## 2. Problem Definition
-Customer churn is defined as a customer who has not made any purchase in the last 90 days.
-The objective of this project is to predict which customers are likely to churn in the next
-three months based on their historical transaction behavior.
+Current Business Pain Points
 
-## 3. Stakeholders
-- Marketing Team: To design targeted retention campaigns
-- Sales Team: To focus efforts on high-risk customers
-- Product Team: To understand purchasing behavior patterns
-- Executive Team: To evaluate business impact and ROI
+Lack of early identification of customers likely to churn
 
-## 4. Business Impact
-- Expected reduction in customer churn rate by 15–20%
-- Improved effectiveness of marketing campaigns
-- Increased customer lifetime value
-- Reduced costs due to targeted promotions
+Inefficient marketing spend due to untargeted campaigns
 
-## 5. Success Metrics
-Primary Metric:
-- ROC-AUC score greater than 0.78
+Limited understanding of customer purchasing behavior
 
-Secondary Metrics:
-- Precision greater than 0.75
-- Recall greater than 0.70
-- F1-score greater than 0.72
+Difficulty prioritizing high-value customers for retention efforts
+
+# 2. Problem Definition
+
+In this project, customer churn is defined as:
+
+A customer who has not made a purchase in the last 90 days.
+
+The goal is to build a data-driven system that predicts customer churn using historical transactional data, enabling proactive retention strategies before customers disengage completely.
+
+# 3. Stakeholders
+
+The solution is designed to support multiple business stakeholders:
+
+Marketing Team
+Requires customer segmentation and churn-risk insights to design targeted retention campaigns.
+
+Sales Team
+Needs churn predictions to focus engagement efforts on customers most likely to disengage.
+
+Product Team
+Requires insights into product-level purchasing patterns to improve personalization and offerings.
+
+Executive Team
+Needs high-level churn trends, revenue impact, and ROI projections to guide strategic decisions.
+
+# 4. Business Impact
+
+A successful churn prediction system is expected to deliver measurable business benefits:
+
+15–20% reduction in customer churn rate through proactive retention
+
+Increase in revenue by retaining high-value customers
+
+Cost savings by reducing blanket marketing campaigns and focusing on at-risk customers
+
+Improved customer lifetime value (CLV) through personalized engagement
+
+# 5. Success Metrics (IMPORTANT)
+Primary Metric
+
+ROC-AUC Score > 0.78
+
+Secondary Metrics
+
+Precision > 0.75 (minimize false positives and avoid unnecessary retention costs)
+
+Recall > 0.70 (effectively identify actual churners)
+
+F1-Score > 0.72 (balanced performance between precision and recall)
+
+These metrics ensure the model aligns with business objectives by balancing prediction accuracy and operational efficiency.

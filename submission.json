@@ -1,0 +1,70 @@
+{
+  "student_info": {
+    "name": "Arepalli Venkata Lakshmi",
+    "email": "23A91A61D8@aec.edu.in",
+    "student_id": "23A91A61D8",
+    "submission_date": "2025-01-22"
+  },
+
+  "repository": {
+    "github_url": "https://github.com/23A91A61D8/ecommerce-churn-prediction",
+    "commit_hash": "8e59d221bbe11844b037e81f132681ba3bbbc014"
+  },
+
+  "deployment": {
+    "live_url": "NA",
+    "platform": "Streamlit Cloud",
+    "deployment_date": "2025-01-22",
+    "status": "active"
+  },
+
+  "dataset": {
+    "source": "Kaggle (UCI Online Retail II)",
+    "url": "https://www.kaggle.com/datasets/carrie1/ecommerce-data",
+    "original_rows": 541909,
+    "cleaned_rows": 392692,
+    "final_customers": 3370
+  },
+
+  "models": {
+    "models_trained": [
+      "Logistic Regression",
+      "Decision Tree",
+      "Random Forest",
+      "XGBoost"
+    ],
+    "best_model": "Random Forest",
+    "best_model_metrics": {
+      "accuracy": 0.81,
+      "precision": 0.71,
+      "recall": 0.66,
+      "f1_score": 0.68,
+      "roc_auc": 0.71
+    }
+  },
+
+  "completion_status": {
+    "phase1_business_understanding": true,
+    "phase2_data_acquisition": true,
+    "phase3_data_cleaning": true,
+    "phase4_feature_engineering": true,
+    "phase5_eda": true,
+    "phase6_modeling": true,
+    "phase7_evaluation": true,
+    "phase8_deployment": true,
+    "phase9_documentation": true,
+    "phase10_code_quality": true
+  },
+
+  "key_learnings": [
+    "Handled real-world e-commerce transactional data with missing values and cancellations",
+    "Built RFM and temporal features for customer-level churn prediction",
+    "Trained and evaluated multiple machine learning models using proper validation"
+  ],
+
+  "challenges_faced": [
+    "Handling class imbalance in churn prediction",
+    "Avoiding data leakage in time-based feature engineering",
+    "Ensuring full Docker reproducibility"
+  ]
+}

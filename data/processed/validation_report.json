@@ -1,0 +1,20 @@
+{
+    "total_rows": 333234,
+    "total_columns": 13,
+    "date_range": {
+        "start": "2010-12-01 08:26:00",
+        "end": "2011-12-09 12:50:00"
+    },
+    "unique_customers": 4191,
+    "unique_products": 3392,
+    "unique_countries": 37,
+    "total_revenue": 4299476.183999999,
+    "average_order_value": 255.52574491857843,
+    "validation_passed": true,
+    "checks": {
+        "no_missing_values": true,
+        "all_quantities_positive": true,
+        "all_prices_positive": true,
+        "customer_id_is_integer": true
+    }
+}

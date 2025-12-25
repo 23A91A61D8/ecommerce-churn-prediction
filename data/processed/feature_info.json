@@ -1,0 +1,7 @@
+{
+    "total_customers": 3083,
+    "total_features": 24,
+    "churn_rate": 0.3814466428803114,
+    "training_cutoff": "2011-08-11",
+    "observation_end": "2011-12-09"
+}
