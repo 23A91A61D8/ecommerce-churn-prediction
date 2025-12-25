@@ -72,7 +72,7 @@ Derived ratios normalize behavior across customers with different lifetimes.
 
 ## Feature Importance Hypothesis
 
-Based on business understanding, the most important predictors of churn are:
+-- Based on business understanding, the most important predictors of churn are:
 
 1. Recency  
 2. Purchases_Last30Days  
@@ -81,4 +81,4 @@ Based on business understanding, the most important predictors of churn are:
 5. CustomerLifetimeDays  
 6. RevenuePerDay  
 
-These features directly reflect customer engagement and inactivity patterns.
+-- These features directly reflect customer engagement and inactivity patterns.
