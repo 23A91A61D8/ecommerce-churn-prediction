@@ -31,6 +31,6 @@ Recommended features:
 
 ## 4. Hypotheses for Testing
 
-H1: Customers with recency > 90 days are 5x more likely to churn  
-H2: Customers with >10 purchases rarely churn  
-H3: Recent engagement reduces churn probability significantly  
+- H1: Customers with recency > 90 days are 5x more likely to churn  
+- H2: Customers with >10 purchases rarely churn  
+- H3: Recent engagement reduces churn probability significantly  
