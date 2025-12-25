@@ -7,32 +7,32 @@ This project focuses on building a customer churn prediction system for an e-com
 
 The following components are included in the project:
 
-Customer-Level Churn Prediction
+- Customer-Level Churn Prediction
 Build a machine learning model to predict whether a customer will churn (no purchase in the next 90 days).
 
-RFM Analysis
+- RFM Analysis
 Use Recency, Frequency, and Monetary (RFM) features to capture customer engagement and value.
 
-Product Affinity & Behavioral Insights
+- Product Affinity & Behavioral Insights
 Analyze purchasing patterns such as product diversity, spending behavior, and purchase frequency to support retention strategies.
 
-Batch Prediction & Dashboard
+- Batch Prediction & Dashboard
 Provide batch churn predictions and a Streamlit-based dashboard for visualization and insights.
 
 # Out of Scope
 
 The following items are explicitly excluded to maintain focus and feasibility:
 
-Real-Time Predictions
+- Real-Time Predictions
 The system does not support real-time or streaming predictions.
 
-Product Recommendation Systems
+- Product Recommendation Systems
 Personalized product recommendation engines are not part of this project.
 
-Inventory Optimization
+- Inventory Optimization
 Stock forecasting, demand planning, and inventory management are excluded.
 
-Paid Data Sources or APIs
+- Paid Data Sources or APIs
 No premium datasets or paid APIs will be used.
 
 # Project Timeline
@@ -53,14 +53,14 @@ Day 7–8: Deployment, documentation, Dockerization, and final submission
 
 The project is subject to the following technical and business constraints:
 
-Free Tools Only
+- Free Tools Only
 All tools used (Python, Pandas, Scikit-learn, Streamlit, Docker) are open-source or free-tier.
 
-No Paid APIs or Services
+- No Paid APIs or Services
 The solution avoids any paid external APIs or cloud services.
 
-Public Deployment
+- Public Deployment
 The deployed Streamlit application must be accessible via a public URL.
 
-Reproducibility Requirement
+- Reproducibility Requirement
 The entire project must run end-to-end in a Dockerized environment.
