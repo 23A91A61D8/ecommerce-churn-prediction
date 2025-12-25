@@ -8,11 +8,12 @@
 
   "repository": {
     "github_url": "https://github.com/23A91A61D8/ecommerce-churn-prediction",
-    "commit_hash": "8e59d221bbe11844b037e81f132681ba3bbbc014"
+    "commit_hash": "e3c5f2f"
+
   },
 
   "deployment": {
-    "live_url": "NA",
+    "live_url": "https://ecommerce-churn-prediction-4mqebfbjtxfjcmampcblqb.streamlit.app/",
     "platform": "Streamlit Cloud",
     "deployment_date": "2025-01-22",
     "status": "active"
