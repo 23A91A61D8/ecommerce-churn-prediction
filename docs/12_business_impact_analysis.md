@@ -40,29 +40,7 @@ Expected churners caught (38%):
 Revenue protected:
 176 × £500 = £88,000
 
-ROI:
-
-£
-88
-,
-000
-−
-£
-4
-,
-630
-£
-4
-,
-630
-=
-18.0
-×
-£4,630
-£88,000−£4,630
-	​
-
-=18.0×
+ROI:£88,000−£4,630£4,630=18.0×£4,630£88,000−£4,630=18.0×
 # Scenario 2: With Model (Targeted Retention)
 
 Customers contacted: TP + FP = 240
@@ -77,29 +55,7 @@ Churners missed: 50
 Revenue protected:
 145 × £500 = £72,500
 
-ROI:
-
-£
-72
-,
-500
-−
-£
-2
-,
-400
-£
-2
-,
-400
-=
-29.2
-×
-£2,400
-£72,500−£2,400
-	​
-
-=29.2×
+ROI:£72,500−£2,400£2,400=29.2×£2,400£72,500−£2,400=29.2×
 # 3. Expected Business Outcomes
 
 Churn reduction: from 38% → ~26%
