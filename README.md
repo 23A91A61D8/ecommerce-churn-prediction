@@ -194,3 +194,5 @@ Lower retention costs
 Improved customer lifetime value
 
 Actionable insights for marketing teams
+## Acknowledgements
+Dataset sourced from UCI Machine Learning Repository
