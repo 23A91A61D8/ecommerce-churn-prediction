@@ -27,16 +27,16 @@ The goal is to build a data-driven system that predicts customer churn using his
 
 The solution is designed to support multiple business stakeholders:
 
-Marketing Team
+- Marketing Team
 Requires customer segmentation and churn-risk insights to design targeted retention campaigns.
 
-Sales Team
+- Sales Team
 Needs churn predictions to focus engagement efforts on customers most likely to disengage.
 
-Product Team
+- Product Team
 Requires insights into product-level purchasing patterns to improve personalization and offerings.
 
-Executive Team
+- Executive Team
 Needs high-level churn trends, revenue impact, and ROI projections to guide strategic decisions.
 
 # 4. Business Impact
